@@ -1,0 +1,176 @@
+.logo{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 0px 0px 18px;
+    padding: 14px 18px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+.all_address{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.new_Adress{
+    margin-top: 20px;
+    font-size: 13px;
+
+    }
+
+  .Uaddress{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      /* border: 1px solid gray; */
+  }
+
+  .Uaddress h4{
+      padding: 5px;
+      margin: 0;
+  }
+  .def_address{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    border: 1px solid gray;
+}
+  .address_bar{
+      display: flex;
+      flex-direction: row;
+      margin-top: 15px;
+  }
+  .address_bar label{
+      font-size: 15px;
+      font-weight: normal;
+  }
+  .used_address{
+      display: flex;
+      flex-direction: column;
+  }
+  .used_address label{
+    font-size: 15px;
+    font-weight: normal;
+}
+  .address_bar h2{
+   padding-left: 10px;
+}
+.address_bar input{
+    font-size: 15PX;
+}
+.address_default{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+.address_default label{
+    font-size: 15px;
+    font-weight: normal;
+}
+.address_input h4{
+margin-left: 5px;
+}
+.Use_btn{
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.PaymentMethod{
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+}
+.PaymentMethod h2{
+ font-size:25px;
+}
+.payment_type{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.img{
+    height: 80px;
+    width: 100px;
+    background-color: white;
+    margin:8px;
+    border: 1px solid rgb(211, 161, 69);
+}
+.img img{
+    height:60px;
+    width:90px
+}
+.payment_form{
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    width:390px;
+    margin-top: 18px;
+}
+.payment_form form{
+    margin-top: 10px;
+    width: 300px;
+    height: 200px;
+    background-color: whitesmoke;
+    margin-top: 40px;
+}
+.Card_no{
+    display: flex;
+    flex-direction: column;
+    margin: 6px;
+
+
+}
+.Card_no input{
+    width:230px;
+    font-size: 13px;
+}
+.Card_no label{
+    font-size: 13px;
+
+
+}
+.expiry_cwn{
+    display: flex;
+    flex-direction: row;
+}
+.expiry_date {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.expiry_date input{
+    width: 100px;
+    font-size: 13px;
+}
+.expiry_date label{
+    /* font-size: small; */
+    font-size: 13px;
+
+}
+.payment_btn{
+font-size: 13px;
+margin-left: 110px;
+margin-right: auto;
+margin-top: 10px;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+}
+.address_input{
+    display: flex;
+    flex-direction: row;
+}

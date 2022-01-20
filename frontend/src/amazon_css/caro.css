@@ -1,0 +1,51 @@
+@media only screen and (max-width: 425px) {
+  .heading h2 {
+    font-size: 10px;
+  }
+  .heading button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+
+  .item {
+    box-sizing: border-box;
+  }
+  .caro_image {
+    height: 50px;
+    width: 45px;
+    border-radius: 10px;
+  }
+  .carousel_second {
+    margin-top: 20px;
+  }
+  .carousel_first {
+    margin-top: 20px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .heading h2 {
+    font-size: 17px;
+  }
+  .heading button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+
+  .item {
+    box-sizing: border-box;
+  }
+
+  .caro_image {
+    height: 160px;
+    width: 210px;
+    border-radius: 10px;
+  }
+  .carousel_second {
+    margin-top: 20px;
+  }
+  .carousel_first {
+    margin-top: 5px;
+  }
+}
